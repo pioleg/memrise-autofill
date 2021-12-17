@@ -40,7 +40,7 @@ Wprowadzenie obsługi zadań z ddźwiękiem prawdopodobnie zajmie troche czasu.
 - **Shift** - odświerz stronę
 
 Memrise posiaa ok. 2s opóźnienia przed przejściem do kolejnego pytania. Można je pominąć wciskając Enter. W raz ze zwiększeniem liczby wspieranych pytań wprowadzone zostanie automatyczne pomijanie po wypęłnieniu. \
-Skróty zostały ustawione tak żeby można było z łatwością pobsługiwać program jedną ręką.
+Skróty zostały ustawione tak żeby można było z łatwością obsługiwać program jedną ręką.
 
 
 
