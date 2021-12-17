@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0.1
 // @description  try to take over the world!
-// @author       You
+// @author       PioLeg
 // @match        https://app.memrise.com/aprender/review?course_id=*
 // @match        https://app.memrise.com/aprender/learn?course_id=*
 // @icon         https://www.google.com/s2/favicons?domain=memrise.com
