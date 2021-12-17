@@ -53,7 +53,7 @@ $(document).ready(function() {
                }
            }
            console.log({id});
-           if(instruction=="Type the correct translation") {
+           if(instruction=="Type the correct translation" || instruction=="Wpisz poprawne tłumaczenie") {
                for (let i = 1; table[id].length > i; i++) {
                    console.log(table[id][i][0]);
                    if (table[id][i][1] == word) {
@@ -64,7 +64,7 @@ $(document).ready(function() {
                setTimeout(check, 10);
            }
            //if(instruction=="Choose the correct translation") {
-           if(instruction=="Pick the correct answer") {
+           if(instruction=="Pick the correct answer" || instruction=="Wybierz poprawną odpowiedź") {
                for (let i = 1; table[id].length > i; i++) {
                    console.log(table[id][i][0]);
                    var answer;
