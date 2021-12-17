@@ -25,9 +25,11 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 
 ### Nie wspierane:
 
+- Wybierz poprawną odpowiedź - Układanie wyrażenia z poanych słów
 - Wybierz tłumaczenie tego, co słyszysz - Wybierz definicję do wypowiedzianego wyrażenia
 - Wybierz odpowiedź, którą słyszysz - Wybierz wypowieziane wyrażenie
-- Wybierz poprawną odpowiedź - Układanie wyrażenia z poanych słów
+
+Wprowadzenie obsługi zadań z ddźwiękiem prawdopodobnie zajmie troche czasu.
 
 
 
