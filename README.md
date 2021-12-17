@@ -8,10 +8,10 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 
 ## Wspierane kursy
 
-- English for Networking and IT Security
-- Advanced English C1-C2 (audio) vol. 1
-- Advanced English C1-C2 (audio) vol. 2
-- English for Maths (audio) - tylko alfabet grecki
+- **English for Networking and IT Security**
+- **Advanced English C1-C2 (audio) vol. 1**
+- **Advanced English C1-C2 (audio) vol. 2**
+- **English for Maths (audio)** - tylko alfabet grecki
 
 
 
@@ -19,15 +19,15 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 
 ### Wspierane:
 
-- Wpisz poprawne tłumaczenie - Wpisz wyrażenie do podanej definicji
-- Wybierz poprawną odpowiedź - Wybierz wyrażenie do podanej definicji
-- Wybierz poprawną odpowiedź - Wybierz definicję do podanego wyrażenia
+- **Wpisz poprawne tłumaczenie** - Wpisz wyrażenie do podanej definicji
+- **Wybierz poprawną odpowiedź** - Wybierz wyrażenie do podanej definicji
+- **Wybierz poprawną odpowiedź** - Wybierz definicję do podanego wyrażenia
 
 ### Nie wspierane:
 
-- Wybierz poprawną odpowiedź - Układanie wyrażenia z poanych słów
-- Wybierz tłumaczenie tego, co słyszysz - Wybierz definicję do wypowiedzianego wyrażenia
-- Wybierz odpowiedź, którą słyszysz - Wybierz wypowieziane wyrażenie
+- **Wybierz poprawną odpowiedź** - Układanie wyrażenia z poanych słów
+- **Wybierz tłumaczenie tego, co słyszysz** - Wybierz definicję do wypowiedzianego wyrażenia
+- **Wybierz odpowiedź, którą słyszysz** - Wybierz wypowieziane wyrażenie
 
 Wprowadzenie obsługi zadań z ddźwiękiem prawdopodobnie zajmie troche czasu.
 
@@ -35,9 +35,9 @@ Wprowadzenie obsługi zadań z ddźwiękiem prawdopodobnie zajmie troche czasu.
 
 ## Skróty klawiaturowe
 
-- Backspace - wypęłnij/ wybierz odpowiedź
-- Enter - przejdź do następnego pytania
-- Shift - odświerz stronę
+- **Backspace** - wypęłnij/ wybierz odpowiedź
+- **Enter** - przejdź do następnego pytania
+- **Shift** - odświerz stronę
 
 Memrise posiaa ok. 2s opóźnienia przed przejściem do kolejnego pytania. Można je pominąć wciskając Enter. W raz ze zwiększeniem liczby wspieranych pytań wprowadzone zostanie automatyczne pomijanie po wypęłnieniu.
 Skróty zostały ustawione tak żeby można nyło z łatwością pobsługiwać program jedną ręką.
@@ -60,7 +60,7 @@ Raczej nie będzie aktualizowany zbyt często.
 
 
 
-### Aktualizacja
+### Aktualizacje
 
 Tampermonkey domyślnie sprawdza aktualizacje raz dziennie, można to zmienić w ustawieniach.
 Skrypty można też ręcznie zaktualizować ponownie klikając na linki instalacyjne.
