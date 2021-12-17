@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Memrise - ignored
+// @name         Memrise - hide reviewed
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
-// @description  try to take over the world!
+// @version      1.0.1
+// @description  Zmniejsza widoczność powtórzonych słów
 // @author       You
 // @match        https://app.memrise.com/course/*
 // @icon         https://www.google.com/s2/favicons?domain=memrise.com

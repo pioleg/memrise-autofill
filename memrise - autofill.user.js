@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Memrise - autofill
 // @namespace    http://tampermonkey.net/
-// @version      1.3.1
-// @description  try to take over the world!
+// @version      1.3.3
+// @description  Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 // @author       PioLeg
 // @match        https://app.memrise.com/aprender/review?course_id=*
 // @match        https://app.memrise.com/aprender/learn?course_id=*
@@ -32,7 +32,7 @@ var check = function() {
 
 $(document).ready(function() {
     $(document).bind('keydown',function(e){
-       if(e.ctrlKey) {
+       if(e.shiftKey) {
            location.reload();
        }
        if(e.keyCode == 8) {
@@ -84,6 +84,12 @@ $(document).ready(function() {
                    }
                });
            }
+
+           // TODO
+           // Choose the translation for what you hear - Wybierz tłumaczenie tego, co słyszysz
+           // Choose the answer you hear - Wybierz odpowiedź, którą słyszysz
+           // Pick the correct answer - Wybierz poprawną odpowiedź
+
        }
     });
 });
@@ -328,7 +334,7 @@ var table = [
 		["Connected token","A security token which must be connected to the authorization device (like laptop to which we are trying to log in). For example smart card solutions, mobile phones with authorization via USB app etc."]
 	],
 	[
-		["2252679"],
+		["2252679"], //Advanced English C1-C2 (audio) vol. 1
 		["Tom, Dick and Harry","everyone or anyone, an ordinary, undistinguished or common person/people taken at random"],
 		["fit as a fiddle","very healthy and strong, as right as rain, as sound as a bell"],
 		["speak of the devil","something you say when the person you were talking about appears unexpectedly"],
