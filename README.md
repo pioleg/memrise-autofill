@@ -21,7 +21,7 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 
 - Wpisz poprawne tłumaczenie - Wpisz wyrażenie do podanej definicji
 - Wybierz poprawną odpowiedź - Wybierz wyrażenie do podanej definicji
-- Wybierz poprawną odpowiedź - Wybierz efinicję do podanego wyrażenia
+- Wybierz poprawną odpowiedź - Wybierz definicję do podanego wyrażenia
 
 ### Nie wspierane:
 
