@@ -39,15 +39,15 @@ Wprowadzenie obsługi zadań z ddźwiękiem prawdopodobnie zajmie troche czasu.
 - **Enter** - przejdź do następnego pytania
 - **Shift** - odświerz stronę
 
-Memrise posiaa ok. 2s opóźnienia przed przejściem do kolejnego pytania. Można je pominąć wciskając Enter. W raz ze zwiększeniem liczby wspieranych pytań wprowadzone zostanie automatyczne pomijanie po wypęłnieniu.
-Skróty zostały ustawione tak żeby można nyło z łatwością pobsługiwać program jedną ręką.
+Memrise posiaa ok. 2s opóźnienia przed przejściem do kolejnego pytania. Można je pominąć wciskając Enter. W raz ze zwiększeniem liczby wspieranych pytań wprowadzone zostanie automatyczne pomijanie po wypęłnieniu. \
+Skróty zostały ustawione tak żeby można było z łatwością pobsługiwać program jedną ręką.
 
 
 
 ## Memrise - hide reviewed
 
-Prosty skrypt zmieniający kolor powtórzonych słow na szaro (tak jak słowa ignorowane).
-Może być przydatny dopóki nie wszystkie typy pytań są obsługiwane.
+Prosty skrypt zmieniający kolor powtórzonych słow na szaro (tak jak słowa ignorowane). \
+Może być przydatny dopóki nie wszystkie typy pytań są obsługiwane. \
 Raczej nie będzie aktualizowany zbyt często.
 
 
@@ -62,7 +62,7 @@ Raczej nie będzie aktualizowany zbyt często.
 
 ### Aktualizacje
 
-Tampermonkey domyślnie sprawdza aktualizacje raz dziennie, można to zmienić w ustawieniach.
+Tampermonkey domyślnie sprawdza aktualizacje raz dziennie, można to zmienić w ustawieniach. \
 Skrypty można też ręcznie zaktualizować ponownie klikając na linki instalacyjne.
 
 
