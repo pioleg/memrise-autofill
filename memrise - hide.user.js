@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Memrise - ignored
 // @namespace    http://tampermonkey.net/
-// @version      1
+// @version      1.0.0
 // @description  try to take over the world!
 // @author       You
 // @match        https://app.memrise.com/course/*
 // @icon         https://www.google.com/s2/favicons?domain=memrise.com
+// @downloadURL  https://github.com/pioleg/memrise-autofill/raw/main/memrise%20-%20hide.user.js
+// @updateURL    https://github.com/pioleg/memrise-autofill/raw/main/memrise%20-%20hide.user.js
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
@@ -32,7 +34,7 @@ $(document).ready(function() {
         // Treść powtórzoną zaznacza na szaro
 
         // Usuń status
-        $(this).remove();
+        //$(this).remove();
         // Usuń status
     });
 });
