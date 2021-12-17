@@ -7,8 +7,8 @@
 // @match        https://app.memrise.com/aprender/review?course_id=*
 // @match        https://app.memrise.com/aprender/learn?course_id=*
 // @icon         https://www.google.com/s2/favicons?domain=memrise.com
-// @downloadURL  https://raw.githubusercontent.com/pioleg/memrise-autofill/main/memri
-// @updateURL    https://github.com/Anarios/return-youtube-dislike/raw/main/Extensions/UserScript/Return%20Youtube%20Dislike.user.js
+// @downloadURL  https://github.com/pioleg/memrise-autofill/raw/main/memrise%20-%20autofill.user.js
+// @updateURL    https://github.com/pioleg/memrise-autofill/raw/main/memrise%20-%20autofill.user.js
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
