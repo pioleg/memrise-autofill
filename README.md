@@ -43,7 +43,7 @@ Wprowadzenie obsługi zadań z ddźwiękiem prawdopodobnie zajmie troche czasu.
 
 ## Skróty klawiaturowe
 
-- **Backspace** - wypęłnij/ wybierz odpowiedź
+- **Backspace** - wypęłnij/ wybierz odpowiedź, pomiń definicję
 - **Enter** - przejdź do następnego pytania
 - **Insert** - odświerz stronę
 

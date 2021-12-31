@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Memrise - autofill
 // @namespace    http://tampermonkey.net/
-// @version      3.12.0
+// @version      3.12.1
 // @description  Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 // @author       PioLeg
 // @match        https://app.memrise.com/aprender/review?course_id=*
@@ -57,11 +57,11 @@ $(document).ready(function() {
 				for (let i = 1; table[id].length > i; i++) {
 					console.log(table[id][i][0]);
 					if (table[id][i][1] == word) {
-						$("input").val($("input").val()+table[id][i][0]+' ');
+						$("input").val(table[id][i][0]+' ');
 						break
 					}
 				}
-				setTimeout(check, 10);
+				setTimeout(check, 1);
 			}
 			//if(instruction=="Choose the correct translation") {
 			if(instruction=="Pick the correct answer" || instruction=="Wybierz poprawną odpowiedź") {
@@ -80,9 +80,12 @@ $(document).ready(function() {
 				$('button div').each(function(index, value){
 					if($(this).text().replace(/ +(?= )/g,'') == answer) {
 						this.click();
-						setTimeout(check, 10);
+						setTimeout(check, 1);
 					}
 				});
+			}
+			if ($("div[data-testid='presentationLearnableCard']").length) {
+				setTimeout(check, 1);
 			}
 
 			// TODO
