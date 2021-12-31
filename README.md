@@ -47,7 +47,7 @@ Wprowadzenie obsługi zadań z ddźwiękiem prawdopodobnie zajmie troche czasu.
 - **Enter** - przejdź do następnego pytania
 - **Insert** - odświerz stronę
 
-Memrise posiaa ok. 2s opóźnienia przed przejściem do kolejnego pytania. Można je pominąć wciskając Enter. W raz ze zwiększeniem liczby wspieranych pytań wprowadzone zostanie automatyczne pomijanie po wypęłnieniu. \
+Memrise posiada ok. 2s opóźnienia przed przejściem do kolejnego pytania. Jest ono automatycznie pomijane po zaznaczeniu poprawnej odpowiedzi. \
 Skróty zostały ustawione tak żeby można było z łatwością obsługiwać program jedną ręką.
 
 

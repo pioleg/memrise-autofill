@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Memrise - autofill
 // @namespace    http://tampermonkey.net/
-// @version      1.12.0
+// @version      3.12.0
 // @description  Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 // @author       PioLeg
 // @match        https://app.memrise.com/aprender/review?course_id=*
@@ -27,7 +27,7 @@ function addJQuery(callback) {
 }
 
 var check = function() {
-	$('.sc-dlnjwi.cmdNXR.sc-1r45oz1-0.boVotz.r1ec2z-3.gVLwcN button').click()
+	$('button.sc-bdvvtL').trigger("click");
 }
 
 $(document).ready(function() {
