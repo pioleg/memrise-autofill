@@ -8,10 +8,11 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 
 ## Wspierane kursy
 
-- **English for Networking and IT Security**
+- **English for Maths (audio)**
+- **Technical English 4 (audio + ilustracje)**
 - **Advanced English C1-C2 (audio) vol. 1**
 - **Advanced English C1-C2 (audio) vol. 2**
-- **English for Maths (audio)**
+- **English for Networking and IT Security**
 
 
 
