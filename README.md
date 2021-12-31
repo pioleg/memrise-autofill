@@ -14,6 +14,7 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 - **Advanced English C1-C2 (audio) vol. 1**
 - **Advanced English C1-C2 (audio) vol. 2**
 - **English for IT Business**
+- **Linux Dictionary**
 - **English for Networking and IT Security**
 
 
