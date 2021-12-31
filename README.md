@@ -10,6 +10,7 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 
 - **English for Maths (audio)**
 - **Technical English 4 (audio + ilustracje)**
+- **English Acronyms**
 - **Advanced English C1-C2 (audio) vol. 1**
 - **Advanced English C1-C2 (audio) vol. 2**
 - **English for Networking and IT Security**
