@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Memrise - autofill
 // @namespace    http://tampermonkey.net/
-// @version      1.6.0
+// @version      1.6.1
 // @description  Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 // @author       PioLeg
 // @match        https://app.memrise.com/aprender/review?course_id=*
@@ -1497,7 +1497,7 @@ var table = [
 		["unauthorized", "not having official permission or approval"],
 		["tanker", "a ship or vehicle that is built to carry liquid or gas"],
 		["near miss", "a situation in which something almost hits something else"],
-		["server", "a computer program or a device that provides functionality for other programs or devices, called "clients""],
+		["server", "a computer program or a device that provides functionality for other programs or devices, called \"clients\""],
 		["jet engine", "an engine that produces power by pushing out gases at high speed"],
 		["capacitive touch screen", "a type of touch screen that works by sensing the electrical properties of the human body instead of pressure"],
 		["encrypt", "to change electronic information or signals into a secret code"],
@@ -1644,7 +1644,7 @@ var table = [
 		["amplifier", "an electronic device that can increase the power of a signal"],
 		["reference temperature", "the temperature at which the vapour pressure of the cargo corresponds to the set pressure of the pressure-relief valve"],
 		["alloy", "a mixture of metals or a mixture of a metal and another element"],
-		["light catcher", "a small, reflective glass or nacre piece that is hung indoors at windows to "catch the light" from a nearby source"],
+		["light catcher", "a small, reflective glass or nacre piece that is hung indoors at windows to \"catch the light\" from a nearby source"],
 		["strain gauge", "a device used to measure strain on an object"],
 		["consisting", "to be made up or composed of"],
 		["thermocouple", "an electrical device consisting of two dissimilar electrical conductors forming electrical junctions at differing temperatures"],
@@ -1822,7 +1822,7 @@ var table = [
 		["tick", "to mark to show that something is correct or has been done"],
 		["ferromagnetic", "having a high susceptibility to magnetization"],
 		["measure", "to judge the quality, effect, importance, or value of something"],
-		["various", "in other words "many different""],
+		["various", "in other words \"many different\""],
 		["operator", "someone whose job is to use and control machine or vehicle"],
 		["test instrument", "device used for testing or measuring materials"],
 		["whereas", "conjunction used to indicate a contrast between two facts or ideas"],
@@ -1983,7 +1983,7 @@ var table = [
 		["assess", "an approximate calculation or judgment of the value, number, quantity, or extent of something"],
 		["supplier", "a person or thing that provides something"],
 		["get on", "to have a harmonious or friendly relationship"],
-		["go about", "to begin or carry on with (an activity), a long-winded way of saying "do""],
+		["go about", "to begin or carry on with (an activity), a long-winded way of saying \"do\""],
 		["turn out", "to prove to be the case"],
 		["obtain", "to come into possession of something"],
 		["get hold of", "to have something in possession or literally hold on to it"],
