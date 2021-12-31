@@ -17,6 +17,7 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 - **Linux Dictionary**
 - **English for Networking and IT Security**
 - **English 4 IT - Beata Błaszczyk - Helion - (audio)**
+- **English Games Vocabulary**
 
 
 
