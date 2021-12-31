@@ -11,7 +11,7 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 - **English for Networking and IT Security**
 - **Advanced English C1-C2 (audio) vol. 1**
 - **Advanced English C1-C2 (audio) vol. 2**
-- **English for Maths (audio)** - tylko alfabet grecki
+- **English for Maths (audio)**
 
 
 
