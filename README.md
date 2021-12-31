@@ -37,7 +37,7 @@ Wprowadzenie obsługi zadań z ddźwiękiem prawdopodobnie zajmie troche czasu.
 
 - **Backspace** - wypęłnij/ wybierz odpowiedź
 - **Enter** - przejdź do następnego pytania
-- **Shift** - odświerz stronę
+- **Insert** - odświerz stronę
 
 Memrise posiaa ok. 2s opóźnienia przed przejściem do kolejnego pytania. Można je pominąć wciskając Enter. W raz ze zwiększeniem liczby wspieranych pytań wprowadzone zostanie automatyczne pomijanie po wypęłnieniu. \
 Skróty zostały ustawione tak żeby można było z łatwością obsługiwać program jedną ręką.
