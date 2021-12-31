@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Memrise - autofill
 // @namespace    http://tampermonkey.net/
-// @version      1.9.0
+// @version      1.9.1
 // @description  Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 // @author       PioLeg
 // @match        https://app.memrise.com/aprender/review?course_id=*
@@ -4105,7 +4105,7 @@ var table = [
 		["Connected token","A security token which must be connected to the authorization device (like laptop to which we are trying to log in). For example smart card solutions, mobile phones with authorization via USB app etc."]
 	],
 	[
-		["1657296", "English 4 IT - Beata Błaszczyk - Helion - (audio)"]. //English 4 IT - Beata Błaszczyk - Helion - (audio)
+		["1657296", "English 4 IT - Beata Błaszczyk - Helion - (audio)"], //English 4 IT - Beata Błaszczyk - Helion - (audio)
 		["accurate", "dokładny, precyzyjny, trafny"],
 		["allocate resources", "alokować zasoby"],
 		["apply", "odnosić się, dotyczyć, mieć zastosowanie"],
