@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Memrise - autofill
 // @namespace    http://tampermonkey.net/
-// @version      3.12.2
+// @version      3.12.4
 // @description  Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 // @author       PioLeg
 // @match        https://app.memrise.com/aprender/review?course_id=*
@@ -44,22 +44,24 @@ $(document).ready(function() {
                 var word = $(".sc-9f618z-2").text().replace(/ +(?= )/g,'');
                 var urlParams = new URLSearchParams(window.location.search);
                 var course_id = urlParams.get('course_id');
+                var id;
+                var word_id;
                 var courses_before = [];
                 var words_before = [];
-                var id;
                 for (let i = 0; table.length > i; i++) {
                     courses_before.push(table[i][0][0]);
                     if (table[i][0][0] == course_id) {
                         id = i;
-                        break
+                        break;
                     }
                 }
                 if(instruction=="Type the correct translation" || instruction=="Wpisz poprawne tłumaczenie") {
                     for (let i = 1; table[id].length > i; i++) {
                         words_before.push(table[id][i][0]);
+                        word_id = i;
                         if (table[id][i][1] == word) {
                             $("input").val(table[id][i][0]+' ');
-                            break
+                            break;
                         }
                     }
                     setTimeout(check, 1);
@@ -68,14 +70,15 @@ $(document).ready(function() {
                 if(instruction=="Pick the correct answer" || instruction=="Wybierz poprawną odpowiedź") {
                     for (let i = 1; table[id].length > i; i++) {
                         words_before.push(table[id][i][0]);
+                        word_id = i;
                         var answer;
                         if (table[id][i][1] == word) {
                             answer = table[id][i][0];
-                            break
+                            break;
                         }
                         if (table[id][i][0] == word) {
                             answer = table[id][i][1];
-                            break
+                            break;
                         }
                     }
                     $('button div').each(function(index, value){
@@ -85,12 +88,7 @@ $(document).ready(function() {
                         }
                     });
                 }
-                console.log({instruction}, '\n',
-                            {word}, '\n',
-                            {course_id}, '\n',
-                            {id}, '\n',
-                            {courses_before}, '\n',
-                            {words_before});
+                console.log(`instruction: ${instruction}\nword:        ${word}\ncourse:      ${course_id}\nword id:     ${id}, ${word_id}\nprev courses:%O\nprev words:%O`, courses_before, words_before);
 
 
                 // TODO
@@ -100,6 +98,7 @@ $(document).ready(function() {
                 // Choose the answer you hear - Wybierz odpowiedź, którą słyszysz
                 // Pick the correct answer - Wybierz poprawną odpowiedź
                 // English for Maths (audio), Level 18 (błąd?)
+                //English for Maths (audio) - tangent/tangent line
             }
 		}
 	});
