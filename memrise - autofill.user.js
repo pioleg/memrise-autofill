@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Memrise - autofill
 // @namespace    http://tampermonkey.net/
-// @version      3.12.1
+// @version      3.12.2
 // @description  Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 // @author       PioLeg
 // @match        https://app.memrise.com/aprender/review?course_id=*
@@ -27,7 +27,7 @@ function addJQuery(callback) {
 }
 
 var check = function() {
-	$('button.sc-bdvvtL').trigger("click");
+	$('button.sc-bczRLJ').trigger("click");
 }
 
 $(document).ready(function() {
@@ -36,66 +36,71 @@ $(document).ready(function() {
 			location.reload();
 		}
 		if(e.keyCode == 8) {
-			var instruction = $("[data-testid=instruction]").text();
-			var test = $("[data-testid=testLearnableCard]");
-			var word = $(".sc-9f618z-2.gaPucC").text().replace(/ +(?= )/g,'');
-			var urlParams = new URLSearchParams(window.location.search);
-			var course_id = urlParams.get('course_id');
-			var id;
-			console.log({instruction});
-			console.log({word});
-			console.log({course_id});
-			for (let i = 0; table.length > i; i++) {
-				console.log(table[i][0][0]);
-				if (table[i][0][0] == course_id) {
-					id = i;
-					break
-				}
-			}
-			console.log({id});
-			if(instruction=="Type the correct translation" || instruction=="Wpisz poprawne tłumaczenie") {
-				for (let i = 1; table[id].length > i; i++) {
-					console.log(table[id][i][0]);
-					if (table[id][i][1] == word) {
-						$("input").val(table[id][i][0]+' ');
-						break
-					}
-				}
-				setTimeout(check, 1);
-			}
-			//if(instruction=="Choose the correct translation") {
-			if(instruction=="Pick the correct answer" || instruction=="Wybierz poprawną odpowiedź") {
-				for (let i = 1; table[id].length > i; i++) {
-					console.log(table[id][i][0]);
-					var answer;
-					if (table[id][i][1] == word) {
-						answer = table[id][i][0];
-						break
-					}
-					if (table[id][i][0] == word) {
-						answer = table[id][i][1];
-						break
-					}
-				}
-				$('button div').each(function(index, value){
-					if($(this).text().replace(/ +(?= )/g,'') == answer) {
-						this.click();
-						setTimeout(check, 1);
-					}
-				});
-			}
 			if ($("div[data-testid='presentationLearnableCard']").length) {
 				setTimeout(check, 1);
-			}
+			} else {
+                var instruction = $("[data-testid=instruction]").text();
+                var test = $("[data-testid=testLearnableCard]");
+                var word = $(".sc-9f618z-2").text().replace(/ +(?= )/g,'');
+                var urlParams = new URLSearchParams(window.location.search);
+                var course_id = urlParams.get('course_id');
+                var courses_before = [];
+                var words_before = [];
+                var id;
+                for (let i = 0; table.length > i; i++) {
+                    courses_before.push(table[i][0][0]);
+                    if (table[i][0][0] == course_id) {
+                        id = i;
+                        break
+                    }
+                }
+                if(instruction=="Type the correct translation" || instruction=="Wpisz poprawne tłumaczenie") {
+                    for (let i = 1; table[id].length > i; i++) {
+                        words_before.push(table[id][i][0]);
+                        if (table[id][i][1] == word) {
+                            $("input").val(table[id][i][0]+' ');
+                            break
+                        }
+                    }
+                    setTimeout(check, 1);
+                }
+                //if(instruction=="Choose the correct translation") {
+                if(instruction=="Pick the correct answer" || instruction=="Wybierz poprawną odpowiedź") {
+                    for (let i = 1; table[id].length > i; i++) {
+                        words_before.push(table[id][i][0]);
+                        var answer;
+                        if (table[id][i][1] == word) {
+                            answer = table[id][i][0];
+                            break
+                        }
+                        if (table[id][i][0] == word) {
+                            answer = table[id][i][1];
+                            break
+                        }
+                    }
+                    $('button div').each(function(index, value){
+                        if($(this).text().replace(/ +(?= )/g,'') == answer) {
+                            this.click();
+                            setTimeout(check, 1);
+                        }
+                    });
+                }
+                console.log({instruction}, '\n',
+                            {word}, '\n',
+                            {course_id}, '\n',
+                            {id}, '\n',
+                            {courses_before}, '\n',
+                            {words_before});
 
-			// TODO
-			// Lista słów
-			// Wyszukiwanie
-			// Choose the translation for what you hear - Wybierz tłumaczenie tego, co słyszysz
-			// Choose the answer you hear - Wybierz odpowiedź, którą słyszysz
-			// Pick the correct answer - Wybierz poprawną odpowiedź
-			// English for Maths (audio), Level 18 (błąd?)
 
+                // TODO
+                // Lista słów
+                // Wyszukiwanie
+                // Choose the translation for what you hear - Wybierz tłumaczenie tego, co słyszysz
+                // Choose the answer you hear - Wybierz odpowiedź, którą słyszysz
+                // Pick the correct answer - Wybierz poprawną odpowiedź
+                // English for Maths (audio), Level 18 (błąd?)
+            }
 		}
 	});
 });
