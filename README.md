@@ -37,7 +37,7 @@ Skrypt automatycznie wypęłniający odpowiedzi na Memrisie
 - **Wybierz tłumaczenie tego, co słyszysz** - Wybierz definicję do wypowiedzianego wyrażenia
 - **Wybierz odpowiedź, którą słyszysz** - Wybierz wypowieziane wyrażenie
 
-Wprowadzenie obsługi zadań z ddźwiękiem prawdopodobnie zajmie troche czasu.
+Wprowadzenie obsługi zadań z dźwiękiem prawdopodobnie zajmie troche czasu.
 
 
 
